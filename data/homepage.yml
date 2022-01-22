@@ -1,0 +1,167 @@
+# banner
+banner:
+  title : "Marmotverse <br> The first on-chain NFT on the Chia blockchain"
+
+# about
+about:
+  enable : true
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  button:
+    enable : true
+    label : "know more"
+    URL : "about"
+
+# skill
+skill:
+  enable : true
+  title : "Projects"
+  item:
+    - title : "Space Marmots"
+      progress : "30%"
+      color : "#fdb157"
+      
+    - title : "TBA"
+      progress : "0%"
+      color : "#9473e6"
+
+    - title : "TBA"
+      progress : "0%"
+      color : "#bdecf6"
+
+    - title : "TBA"
+      progress : "00%"
+      color : "#ffbcaa"
+
+# experience
+experience:
+  enable : false
+  title : "Experience"
+  item: 
+    - logo : "images/experience/icon-1.png"
+      title : "Junior UX Designer"
+      company : "WEBEX"
+      duration : "Jan 2007 - Feb 2009"
+      
+    - logo : "images/experience/icon-2.png"
+      title : "UX & UI Designer"
+      company : "AUGMEDIX"
+      duration : "Mar 2009 - Aug 2014"
+      
+    - logo : "images/experience/icon-1.png"
+      title : "Senior UI Designer"
+      company : "THEMEFISHER"
+      duration : "Sep 2014 - Present"
+
+# education
+education:
+  enable : true
+  title : "Roadmap"
+  item:
+    - title : "It all starts"
+      year : "14.01.2022"
+      academy : "The first idea arises"
+      
+    - title : "More stuff"
+      year : "15.01.2022"
+      academy : "We're great"
+      
+    - title : "Even better more stuff"
+      year : "16.01.2022"
+      academy : "YAY"
+
+
+# service
+service:
+  enable : true
+  title : "Alternative view on projects"
+  item:
+    - title : "Space Marmots"
+      icon : "ti-palette"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : false
+
+    - title : "TBA"
+      icon : "ti-vector"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : true
+
+    - title : "TBA"
+      icon : "ti-panel"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : false
+
+    - title : "TBA"
+      icon : "ti-panel"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : false
+
+    - title: "TBA"
+      icon: "ti-panel"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted: false
+# portfolio
+portfolio:
+  enable : true
+  title : "Marmot Showcase"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+# testimonial
+testimonial:
+  enable : true
+  title : "Testimonials"
+  item:
+    - name : "Happy Token Owner 1"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "this is an enterprise-quality marmot project good sir"
+      
+    - name : "Happy Token Owner 2"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "You guys are doing a great job!!! 👏🏼👏🏼"
+      
+    - name : "Happy Token Owner 3"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "it's great to see that a real community is getting formed around chia and stuff around it"
+
+# client logo slider
+clients_logo_slider:
+  enable : false
+  item:
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : true
+  title : "Blogs"
+  # blog post comes from "content/blog" folder
