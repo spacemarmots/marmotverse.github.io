@@ -99,12 +99,12 @@ service:
 #      icon: "ti-panel"
 #      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 #      highlighted: false
-# portfolio
-portfolio:
+# marmots
+marmots:
   enable : true
   title : "Marmot Showcase"
   item_show : 5
-  # portfolio item comes from 'data/portfolio.yml' item.
+  # marmots item comes from 'data/marmots.yml' item.
 
 # testimonial
 testimonial:
