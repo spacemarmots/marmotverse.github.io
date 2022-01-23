@@ -12,6 +12,8 @@ link = "plugins/bootstrap/bootstrap.min.css"
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "icons/custom-icons/style.css"
 
 
 # js plugin
@@ -97,7 +99,7 @@ expire_days = 2
 
 # social site
 [[params.social]]
-icon = "fa-discord"
+icon = "icon-discord"
 URL = "https://discord.gg/cb9TTWKqPZ"
 
 [[params.social]]

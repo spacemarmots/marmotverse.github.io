@@ -5,10 +5,10 @@ banner:
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "The Marmotverse On-Chain Non-Fungible Token (NFT) project will be the premiere Art project and exclusive NFT-ownership club on the Chia blockchain. Instead of storing NFT files on unsecured and centralized Web 2.0 storage, or leveraging a competing blockchains, we will be storing our assets directly on the Chia blockchain for maximum longevity and reliability."
   button:
     enable : true
-    label : "know more"
+    label : "learn more"
     URL : "about"
 
 # skill
