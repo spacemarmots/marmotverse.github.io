@@ -5,7 +5,7 @@
 <meta name=description content="This is meta description.">
 <meta name=author content="Marmotverse Team">
 <meta name=generator content="Hugo 0.92.0">
-<style>:root{--primary-color:#4a32af}</style>
+<style>:root{--primary-color:#41824f}</style>
 <link rel=stylesheet href=https://spacemarmots.io/marmotverse.github.io/plugins/bootstrap/bootstrap.min.css>
 <link rel=stylesheet href=https://spacemarmots.io/marmotverse.github.io/plugins/slick/slick.css>
 <link rel=stylesheet href=https://spacemarmots.io/marmotverse.github.io/plugins/themify-icons/themify-icons.css>
@@ -40,6 +40,9 @@
 <a class=nav-link href=https://spacemarmots.io/marmotverse.github.io/marmots>Marmot Showcase</a>
 </li>
 <li class=nav-item>
+<a class=nav-link href=https://discord.gg/cb9TTWKqPZ>Discord</a>
+</li>
+<li class=nav-item>
 <a class=nav-link href=https://spacemarmots.io/marmotverse.github.io/contact>Contact</a>
 </li>
 </ul>
@@ -71,19 +74,16 @@
 <input type=radio name=shuffle-filter value=all checked>All
 </label>
 <label class="btn btn-sm btn-primary">
-<input type=radio name=shuffle-filter value=spacemarmtos>Spacemarmtos
+<input type=radio name=shuffle-filter value=spacemarmots>Spacemarmots
 </label>
 <label class="btn btn-sm btn-primary">
 <input type=radio name=shuffle-filter value=marmots>Marmots
-</label>
-<label class="btn btn-sm btn-primary">
-<input type=radio name=shuffle-filter value=spacemarmots>Spacemarmots
 </label>
 </div>
 </div>
 </div>
 <div class="row shuffle-wrapper">
-<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["spacemarmtos","marmots"]'>
+<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["spacemarmots","marmots"]'>
 <div class="position-relative rounded hover-wrapper">
 <img src=https://spacemarmots.io/marmotverse.github.io/images/marmots/space/space_marmot.png alt=portfolio-image class="img-fluid rounded w-100 d-block">
 <div class=hover-overlay>
@@ -103,22 +103,6 @@
 </div>
 </div>
 </div>
-</div>
-</div>
-</section>
-<section class="section bg-light">
-<div class=container>
-<div class="client-logo-slider d-flex align-items-center">
-<a href=http://examplesite.com class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-1.png alt=client-logo></a>
-<span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-2.png alt=client-logo></span>
-<a href=http://examplesite.com class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-3.png alt=client-logo></a>
-<span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-4.png alt=client-logo></span>
-<a href=http://examplesite.com class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-5.png alt=client-logo></a>
-<span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-1.png alt=client-logo></span>
-<a href=http://examplesite.com class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-2.png alt=client-logo></a>
-<span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-3.png alt=client-logo></span>
-<a href=http://examplesite.com class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-4.png alt=client-logo></a>
-<span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src=https://spacemarmots.io/marmotverse.github.io/images/clients-logo/client-logo-5.png alt=client-logo></span>
 </div>
 </div>
 </section>
@@ -179,5 +163,11 @@
 <script src=https://spacemarmots.io/marmotverse.github.io/plugins/shuffle/shuffle.min.js></script>
 <script src=https://spacemarmots.io/marmotverse.github.io/plugins/google-map/map.js></script>
 <script src=https://spacemarmots.io/marmotverse.github.io/js/script.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js></script>
+<div id=js-cookie-box class="cookie-box cookie-box-hide">
+This site uses cookies. By continuing to use this website, you agree to their use. <span id=js-cookie-button class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>(function(c){const a=document.getElementById('js-cookie-box'),b=document.getElementById('js-cookie-button');Cookies.get('cookie-box')||(a.classList.remove('cookie-box-hide'),b.onclick=function(){Cookies.set('cookie-box',!0,{expires:2}),a.classList.add('cookie-box-hide')})})(jQuery)</script>
+<style>.cookie-box{position:fixed;left:0;right:0;bottom:0;text-align:center;z-index:9999;padding:1rem 2rem;background:#474747;transition:all .75s cubic-bezier(.19,1,.22,1);color:#fdfdfd}.cookie-box-hide{display:none}</style>
 </body>
 </html>
