@@ -4,7 +4,7 @@ date: 2022-01-12T12:14:54+06:00
 image: "images/marmots/space/space_marmot.png"
 name: "Space Marmot Name"
 project_url : "https://spacemarmots.io/"
-categories: ["Spacemarmtos", "marmots"]
+categories: ["spacemarmots", "marmots"]
 description: "This is meta description."
 draft: false
 ---
@@ -12,7 +12,7 @@ draft: false
 #### Project Requirements
 
 A great Marmot. Really fun. Much space
-
+a
 
 #### Project Details
 

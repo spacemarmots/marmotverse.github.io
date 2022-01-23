@@ -46,9 +46,14 @@ name = "Marmot Showcase"
 weight = 3
 
 [[menu.main]]
+URL = "https://discord.gg/cb9TTWKqPZ"
+name = "Discord"
+weight = 4
+
+[[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 4
+weight = 5
 
 
 # default parameters
@@ -56,7 +61,7 @@ weight = 4
 home = "Home"
 logo = ""
 # theme color
-theme_color = "#4a32af"
+theme_color = "#41824f"
 # contact info
 # phone = "+880 2544 658 256"
 email = "info@marmotverse.io"
@@ -94,7 +99,7 @@ map_marker = "images/marker.png"
 
 # cookies
 [params.cookies]
-enable = false
+enable = true
 expire_days = 2
 
 # social site
