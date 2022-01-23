@@ -13,10 +13,10 @@ about:
 
 # skill
 skill:
-  enable : true
+  enable : false
   title : "Projects"
   item:
-    - title : "Space Marmots"
+    - title : "Space Marmots "
       progress : "30%"
       color : "#fdb157"
       
@@ -73,32 +73,32 @@ education:
 # service
 service:
   enable : true
-  title : "Alternative view on projects"
+  title : "Our NFT Collections"
   item:
     - title : "Space Marmots"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
-
-    - title : "TBA"
-      icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      icon : "ti-rocket"
+      content : "Space Marmots will be a fully decentralized, high-quality Marmot based NFT that will exist as long as the Chia Blockchain does. They will be sold at low prices during the pre-sale period with final pricing set once the rest of the Chia NFT Gallery infrastructure has been released.  [Learn more](https://duckduckgo.com)"
       highlighted : true
 
-    - title : "TBA"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
-
-    - title : "TBA"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
-
-    - title: "TBA"
-      icon: "ti-panel"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted: false
+#    - title : "TBA"
+#      icon : "ti-vector"
+#      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#      highlighted : false
+#
+#    - title : "TBA"
+#      icon : "ti-panel"
+#      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#      highlighted : false
+#
+#    - title : "TBA"
+#      icon : "ti-panel"
+#      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#      highlighted : false
+#
+#    - title: "TBA"
+#      icon: "ti-panel"
+#      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#      highlighted: false
 # portfolio
 portfolio:
   enable : true
