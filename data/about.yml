@@ -22,23 +22,23 @@ team:
   title : "Our awesome mooncrew"
   team_member:
     - title : "Drew"
-      image : "images/team/member-1.png"
+      image : "images/team/drew.png"
       designation : "Lead Artist"
       
-    - title : "Foods"
+    - title : "Tegridy Fo0ds"
       image : "images/team/member-2.png"
-      designation : "Technical Director"
+      designation : "Brain Marmot behind the idea. Leader."
       
     - title : "Hendrik"
-      image : "images/team/member-3.png"
-      designation : "Bussiness Consultant"
+      image : "images/team/hendrik.png"
+      designation : "Business Consultant"
 
     - title : "Speedmann"
-      image : "images/team/member-3.png"
+      image : "images/team/speedmann.png"
       designation : "Tech slave"
 
     - title : "Blaktron"
-      image : "images/team/member-3.png"
+      image : "images/team/blaktron.png"
       designation : "Technical consultant"
 
 # client logo slider

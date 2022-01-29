@@ -57,18 +57,53 @@ education:
   enable : true
   title : "Roadmap"
   item:
-    - title : "It all starts"
-      year : "14.01.2022"
+    - title : "The Space Marmots idea was born"
+      year : "10.01.2022"
       academy : "The first idea arises"
       
-    - title : "More stuff"
-      year : "15.01.2022"
-      academy : "We're great"
+    - title : "The team assembles"
+      year : "11.01.2022"
+      academy : "Just after a short period of time since the idea was born, the great team now known as the mooncrew is assembled"
       
-    - title : "Even better more stuff"
+    - title : "Our first prototype arrives"
       year : "16.01.2022"
-      academy : "YAY"
+      academy : "We published the first prototype of our awesome Marmots to the twitterverse"
 
+    - title : "Brainstorming ideas about possible Marmots"
+      year : "16.01.2022"
+      academy : "We published the first prototype of our awesome Marmots to the twitterverse"
+
+    - title: "First SM1 pre-sales event"
+      year: "18.01.2022"
+      academy: "It was a blast, we sold out in less than 3 Blocks 🎉"
+
+    - title: "First Marmot on Testnet10"
+      year: "23.01.2022"
+      academy: "Laser Eye Canon Marmot #1 arrived at testnet10. Fully on chain."
+
+    - title: "Second SM1 pre-sales event"
+      year: "25.01.2022"
+      academy: "Another 75 SM1 have been sold in mere minutes. This time on offerbin.io *and* hash.green"
+
+    - title: "It's groundhog day"
+      year: "02.02.2022"
+      academy: "Groundhog day is special to us, so prepare for the final pre-sales event of SM1."
+
+    - title: "Artwork creation"
+      year: "Jan./Feb. 2022"
+      academy: "We're working hard on delivering the best artwork for our spacemarmots."
+
+    - title: "NFT Tech work starts"
+      year: "February 2022"
+      academy: "We're expecting to start working on the NFT Standard."
+
+    - title: "Nearing completion"
+      year: "March 2022"
+      academy: "By march, we plan to deliver our first alpha stage NFT to you."
+
+    - title: "Release of Chias NFT Standard"
+      year: "End of march 2022"
+      academy: "This is a guess, but we hope the NFT Standard will be ready by end of march."
 
 # service
 service:
@@ -77,7 +112,7 @@ service:
   item:
     - title : "Space Marmots"
       icon : "ti-rocket"
-      content : "Space Marmots will be a fully decentralized, high-quality Marmot based NFT that will exist as long as the Chia Blockchain does. They will be sold at low prices during the pre-sale period with final pricing set once the rest of the Chia NFT Gallery infrastructure has been released.  [Learn more](https://duckduckgo.com)"
+      content : "Space Marmots will be a fully decentralized, high-quality Marmot based NFT that will exist as long as the Chia Blockchain does. They will be sold at low prices during the pre-sale period with final pricing set once the rest of the Chia NFT Gallery infrastructure has been released."
       highlighted : true
 
 #    - title : "TBA"
