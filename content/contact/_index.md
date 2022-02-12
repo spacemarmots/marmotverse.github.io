@@ -1,7 +1,6 @@
 ---
 title: Contact
 description: Marmotverse Contact form
-draft: true
 
 ---
     <!-- modify this form HTML and place wherever you want your form -->
