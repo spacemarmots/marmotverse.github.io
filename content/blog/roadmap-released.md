@@ -18,4 +18,4 @@ We are planning to be ready when the 3rd parties are, but by planning for the be
 Thank you again for your support of the Marmotverse
 
 
-{{< img src="images/roadmap.png" alt="Bad Lighthouse Performance" >}}
+{{< img src="images/roadmap.png" alt="Marmotverse Project Plan" >}}
