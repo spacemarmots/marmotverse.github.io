@@ -23,23 +23,23 @@ team:
   team_member:
     - title : "Drew"
       image : "images/team/drew.png"
-      designation : "Lead Artist"
+      designation : "Chief Theriogenology Officer"
       
     - title : "Tegridy Fo0ds"
       image : "images/team/thefo0d.jpeg"
-      designation : "Brain Marmot behind the idea. Leader."
+      designation : "Chief Evangelism Officer and Chairman of the Bored"
       
     - title : "Hendrik"
       image : "images/team/hendrik.png"
-      designation : "Business Consultant"
+      designation : "Chief Fungibility Officer and Burrow Development (CFO and Biz Dev)"
 
     - title : "Speedmann"
       image : "images/team/speedmann.png"
-      designation : "Tech slave"
+      designation : "Chief Production, Process and Protocol Officer"
 
     - title : "Blaktron"
       image : "images/team/blaktron.png"
-      designation : "Technical consultant"
+      designation : "Architect of Sophisticated Systems and Harmonious Online Liaisons Executive"
 
 # client logo slider
 clients_logo_slider:
