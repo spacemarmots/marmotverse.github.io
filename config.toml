@@ -51,14 +51,19 @@ name = "Whitepaper"
 weight = 4
 
 [[menu.main]]
+URL = "pages/faq"
+name = "FAQ"
+weight = 5
+
+[[menu.main]]
 URL = "https://discord.gg/cb9TTWKqPZ"
 name = "Discord"
-weight = 5
+weight = 6
 
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 6
+weight = 7
 
 
 # default parameters
