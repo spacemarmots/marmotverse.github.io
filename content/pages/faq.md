@@ -4,7 +4,6 @@ date: 2022-01-12T12:14:34+06:00
 description: "Frequently Asked Questions"
 draft: false
 ---
-# Frequently Asked Questions
 
 ### What are you doing to ensure fair distribution of the SM1 tokens?
 

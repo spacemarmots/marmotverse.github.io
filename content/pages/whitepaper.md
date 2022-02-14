@@ -5,8 +5,6 @@ description: "Whitepaper"
 draft: false
 ---
 
-# MarmotVerse Whitepaper
-
 ### INTRODUCTION
 
 The Marmotverse On-Chain Non-Fungible Token (NFT) project will be the premiere Art project and exclusive NFT-ownership club on the Chia blockchain. Instead of storing NFT files on unsecured and centralized Web 2.0 storage, or leveraging a competing blockchain, we will be storing our assets directly on the Chia blockchain for maximum longevity and reliability.
