@@ -1,7 +1,7 @@
 ---
 title: "Whitepaper"
 date: 2022-01-12T12:14:34+06:00
-description: "Empty."
+description: "Whitepaper"
 draft: false
 ---
 

@@ -6,7 +6,7 @@ draft: false
 ---
 # Frequently Asked Questions
 
-<b> What are you doing to ensure fair distribution of the SM1 tokens? </b>
+<b>What are you doing to ensure fair distribution of the SM1 tokens?</b>
 
 Whatever we can. We are using all the tools available to us, and will be adjusting each of the 3 presales accordingly to ensure that as many people that want a presale token will get one.
 
@@ -40,10 +40,10 @@ f5f0770713ebdd6e132410b3406f85c7cd49d690080a3277e00c24d7a91a5af0
 
 <b>How to add Space Marmots Premium to the light wallet?</b>
 
-1 While in the light wallet (Download from https://www.chia.net/download/#light-wallet-beta) click "+ Add Token"
-2 Select "Custom"
-3 Enter the CAT Information as mentioned in the FAQ entry above and click "Add"
-4 You're done. You now have added Space Marmots Premium Token information to your wallet
+1 While in the light wallet (Download from https://www.chia.net/download/#light-wallet-beta) click "+ Add Token" <br>
+2 Select "Custom" <br>
+3 Enter the CAT Information as mentioned in the FAQ entry above and click "Add" <br>
+4 You're done. You now have added Space Marmots Premium Token information to your wallet <br>
 
 <b>How Many Space Marmots will be minted</b>
 
