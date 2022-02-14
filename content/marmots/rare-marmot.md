@@ -1,5 +1,5 @@
 ---
-title: "Artwork Design"
+title: "Rare Marmot"
 date: 2022-01-12T12:14:54+06:00
 image: "images/marmots/space/rare_marmot.png"
 name: "Rare Marmot Example"
@@ -9,10 +9,10 @@ description: "Rare Space Marmot Example"
 draft: false
 ---
 
-#### Project Requirements
+#### Character Description
 
 This is the example of a rare marmot. Complex background. Rare headgear. Multiple Accessories. Laser Sword.
 
-#### Project Details
+#### Origin
 
 Rare Marmot example.

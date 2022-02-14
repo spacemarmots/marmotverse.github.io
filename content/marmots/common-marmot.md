@@ -1,5 +1,5 @@
 ---
-title: "Artwork Design"
+title: "Common Marmot"
 date: 2022-01-12T12:14:54+06:00
 image: "images/marmots/space/common_marmot.png"
 name: "Common Marmot Example"
@@ -9,10 +9,10 @@ description: "Common Space Marmot Example"
 draft: false
 ---
 
-#### Project Requirements
+#### Character Description
 
 This is the example of a common marmot. Simple background. One random accessory.
 
-#### Project Details
+#### Origin
 
 Common Marmot example.

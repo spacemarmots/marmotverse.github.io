@@ -1,5 +1,5 @@
 ---
-title: "Artwork Design"
+title: "Space Marmot"
 date: 2022-01-12T12:14:54+06:00
 image: "images/marmots/space/space_marmot.png"
 name: "Prototype Marmot"
@@ -9,10 +9,10 @@ description: "Prototype Marmot."
 draft: false
 ---
 
-#### Project Requirements
+#### Character Description
 
 A great Marmot. Really fun. Much space
 
-#### Project Details
+#### Origin
 
 Prototype Marmot 1
