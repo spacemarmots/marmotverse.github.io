@@ -7,7 +7,7 @@ draft: false
 
 # MarmotVerse Whitepaper
 
-INTRODUCTION
+### INTRODUCTION
 
 The Marmotverse On-Chain Non-Fungible Token (NFT) project will be the premiere Art project and exclusive NFT-ownership club on the Chia blockchain. Instead of storing NFT files on unsecured and centralized Web 2.0 storage, or leveraging a competing blockchain, we will be storing our assets directly on the Chia blockchain for maximum longevity and reliability.
 
@@ -19,11 +19,11 @@ You can keep track of the upcoming launch dates of the various Chia NFT gallerie
 
 The breakdown of Space Marmots available for mint is:
 
--2000 Regular Edition Marmots. Divided into Common (1600), Uncommon (350) and Rare (50)
--30 Limited Edition Marmots. with completely unique attributes.
--70 Special Release Marmots. To be announced after the presale rounds are complete.
+-2000 Regular Edition Marmots. Divided into Common (1600), Uncommon (350) and Rare (50)  
+-30 Limited Edition Marmots. with completely unique attributes.  
+-70 Special Release Marmots. To be announced after the presale rounds are complete.  
 
-PRODUCT
+### PRODUCT
 
 Space Marmots will be the first set in the Marmotverse. Each Space Marmot will be randomly generated from a base Marmot and a set of attributes and accessories that make that Marmot unique. That unique Marmot will then be encoded with a serial number and converted into a Base64 data string and embedded directly onto the Chia Blockchain. This will make each Space Marmot as permanent as Chia itself with no additional centralized requirements to see your Marmot.
 
@@ -33,10 +33,10 @@ The SM1 tokens will also grant the holders the right to mint their Marmot themse
 
 As the Marmotverse can only exist because of the Marmots, the Space Marmot project, and all subsequent Marmotverse NFT mints, will be donating 10% of all minting revenue to the Marmot Recovery Foundation at Marmots.org. This will be done in Canadian Dollars based on the amount exchanged and the exchange rate at the time of donation. Donations will be made in coordination with the Marmot Recovery Foundation after the sale period is complete.
 
-PROTOTYPES
+### PROTOTYPES
 
 Please see the Marmot Showcase for an up-to-date gallery of Space Marmots Art. It is still in development, but more will be added consistently.
 
-CONCLUSION
+### CONCLUSION
 
 Space Marmots will be a fully decentralized, high-quality Marmot based NFT that will exist as long as the Chia Blockchain does. They will be sold at low prices during the pre-sale period with final pricing set once the rest of the Chia NFT Gallery infrastructure has been released. 
