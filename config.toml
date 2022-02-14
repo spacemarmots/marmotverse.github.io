@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://spacemarmots.io/marmotverse.github.io/"
+baseURL = "https://marmotverse.io"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
