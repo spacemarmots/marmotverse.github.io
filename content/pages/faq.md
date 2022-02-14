@@ -40,10 +40,10 @@ f5f0770713ebdd6e132410b3406f85c7cd49d690080a3277e00c24d7a91a5af0
 
 ### How to add Space Marmots Premium to the light wallet?
 
-1 While in the light wallet (Download from https://www.chia.net/download/#light-wallet-beta) click "+ Add Token" <br>
-2 Select "Custom" <br>
-3 Enter the CAT Information as mentioned in the FAQ entry above and click "Add" <br>
-4 You're done. You now have added Space Marmots Premium Token information to your wallet <br>
+1 While in the light wallet (Download from https://www.chia.net/download/#light-wallet-beta) click "+ Add Token"  
+2 Select "Custom"  
+3 Enter the CAT Information as mentioned in the FAQ entry above and click "Add"  
+4 You're done. You now have added Space Marmots Premium Token information to your wallet  
 
 ### How Many Space Marmots will be minted
 
