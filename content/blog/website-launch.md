@@ -23,3 +23,5 @@ In that interview he makes the first time announcement that the remainder of the
 I would just like to take this opportunity to clarify the NFT transfer fee situation. Minting the on-chain NFTs is going to require significant transaction space, and the fees to match. But that will be a one-time transaction and trading the NFT later will not require the entire image to be re-written to the blockchain. Secondary transactions will have a similar fee structure to other NFT transactions on the Chia blockchain at the time of transaction. We will be providing a full technical breakdown as soon as the standard has been released and we are able to.
 Check out the website and keep and eye on it in the coming days as we fill out more of the Marmot Showcase and announce the details of the SM1 giveaways. 
 Long live the Marmota!
+
+Image Attribution: [eli_allan_photography @ unsplash](https://unsplash.com/photos/hzcp-NslAOA)
