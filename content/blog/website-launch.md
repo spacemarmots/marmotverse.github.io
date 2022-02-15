@@ -1,8 +1,8 @@
 ---
 title: "Our new website launched"
 date: 2022-02-14T11:00:00-06:00
-image: "images/blog/post-5.jpg"
-description: "Pre-sales announcement"
+image: "images/blog/eli-allan-hzcp-NslAOA-unsplash.jpg"
+description: "Website launched today"
 draft: false
 ---
 Hello everyone.
