@@ -1,5 +1,5 @@
 ---
-title: "Next pre-sales will be on 25.01.2022"
+title: "Next pre-sale will be on 25.01.2022"
 date: 2022-01-24T11:00:00-06:00
 image: "images/blog/post-5.jpg"
 description: "Pre-sales announcement"
