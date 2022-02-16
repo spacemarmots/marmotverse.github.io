@@ -94,16 +94,16 @@ education:
       academy: "We're working hard on delivering the best artwork for our spacemarmots."
 
     - title: "NFT Tech work starts"
-      year: "February 2022"
+      year: "March 2022"
       academy: "We're expecting to start working on the NFT Standard."
 
     - title: "Nearing completion"
-      year: "March 2022"
-      academy: "By march, we plan to deliver our first alpha stage NFT to you."
+      year: "April 2022"
+      academy: "By April, we plan to deliver our first alpha stage NFT to you."
 
-    - title: "Release of Chias NFT Standard"
-      year: "End of march 2022"
-      academy: "This is a guess, but we hope the NFT Standard will be ready by end of march."
+    - title: "Release of Chia's NFT Standard"
+      year: "End of April 2022"
+      academy: "This is a guess, but we hope the NFT Standard will be ready by end of April."
 
 # service
 service:
