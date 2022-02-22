@@ -6,7 +6,7 @@ description: "Space Marmots project update"
 draft: false
 ---
 
-Hello Marmoteers!
+#### Hello Marmoteers!
 
 We have been quiet the last couple of weeks, but we have not been idle. We have been working on a lot of the back-end processes and have made quite a bit of progress. We are not yet in a position to release everything, but a lot of it is in the polish stage and will be public fairly soon. We have now successfully tested our on-chain storage and provable uniqueness mechanisms and are confident we will be able to meet our stated commitments.
 
