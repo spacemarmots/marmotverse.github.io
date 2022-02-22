@@ -14,7 +14,7 @@ We have been quiet the last couple of weeks, but we have not been idle. We have 
 
 Drew has been hard at work on the Marmots, backgrounds, accessories and weapons and we have produced enough to begin experimenting with combining them automatically. We are going to continue to produce art assets through the development period and won’t be producing the final Space Marmots until much closer to Minting Day so we can have the most assets and variations available as possible. 
 
-### Community Building
+#### Community Building
 
 We are going to start running giveaways for the rest of the SM1 Marmot coupons shortly. Our goal is to have them all distributed well ahead of Minting Day so that all 300 holders can get in on the action. Because of that we are also announcing the Marmotverse Social Club which will be a private community available only to owners of Space Marmots or other Marmotverse NFT properties. Initially this will take the form of a private Discord community, but membership in the Marmotverse Social Club will also bring with it early access to future projects and services, direct access to the team once the community has grown as well as discounts on Marmotverse Merchandise. That’s right, we are also announcing work on the Marmotverse Merchandise shop.
 
