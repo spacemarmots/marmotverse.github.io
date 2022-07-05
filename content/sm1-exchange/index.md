@@ -11,7 +11,9 @@ When you submit the Royalty Address, this is the XCH address that will both be w
 
 Please submit the following form with your XCH reward adddress, your email address (So we can contact you if anything goes wrong) and create an offer file with your SM1 token for the following CAT with Asset ID: `6fe9ce90652bcf259ccf1bd9240057d6b17a5e5b82e4e4cd3b62d8099db9003c`
 
-![How to Add a CAT to the Chia Wallet](/images/sm1-exchange/addcat.png)
+![How to Add a CAT to the Chia Wallet Step 1](addcat.png)
+
+![How to Add a CAT to the Chia Wallet Step 2](addcat2.png)
 
 The offer file should be for exactly 1:1 of SM1 to the Thank You CAT. This token you will receive has no value, and is merely an exchange process to record the information necessary to mint your special, custom Space Marmot. Do not sell or buy these tokens. Do not post your SM1 offer on a public exchange such as Offerbin or on Keybase, as it could result in your SM1 being lost by someone who has already redeemed theirs.
 
