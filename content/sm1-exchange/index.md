@@ -15,7 +15,7 @@ Please submit the following form with your XCH reward adddress, your email addre
 
 ![How to Add a CAT to the Chia Wallet Step 2](addcat2.png)
 
-The offer file should be for exactly 1:1 of SM1 to the Thank You CAT. This token you will receive has no value, and is merely an exchange process to record the information necessary to mint your special, custom Space Marmot. Do not sell or buy these tokens. Do not post your SM1 offer on a public exchange such as Offerbin or on Keybase, as it could result in your SM1 being lost by someone who has already redeemed theirs.
+The offer file should be for exactly 1:1 of SM1 to the Thank You CAT. This token you will receive has no value, and is merely an exchange process to record the information necessary to mint your special, custom Space Marmot. **Do not sell or buy these tokens.** Do not post your SM1 offer on a public exchange such as Offerbin or on Keybase, as it could result in your SM1 being stolen by someone else.
 
 Once we have received your order, we will begin the manual process of creating your bespoke Space Marmot. This Marmot will be drawn randomly from the pool of available Space Marmots and does not confer any advantage to random selection.
 
