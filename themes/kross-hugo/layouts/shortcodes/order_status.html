@@ -11,35 +11,37 @@
                 <div class="form-group">
                     <div class="col-md-10">
                         <input type="text" class="form-control" id="inputOrderTrackingID" value=""
-                        placeholder="# put your order id here">
+                        placeholder="# put your tracking id here">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="offset-sm-2 col-md-10">
                         <button type="button" id="shopGetOrderStatusID" class="btn btn-success">Get status</button>
+                                                <button type="button" id="getMore" class="btn btn-success" onclick="location.href='https://marmotverse.io/sm1-exchange/';">Redeem another SM1</button>
+
                     </div>
                 </div>
             </div>
              <h4>Your order status:</h4>
             <ul class="list-group">
                 <li class="list-group-item"> <span class="prefix">State:</span>
- <span class="badge badge-success" id="state">N/A</span>
+ <span class="" id="state">N/A</span>
+                </li>
+                <li class="list-group-item"> <span class="prefix">Reject Reason (If any):</span>
+ <span class="" id="reject_reason">N/A</span>
                 </li>
                 <li class="list-group-item"> <span class="prefix">Marmot minted:</span>
- <span class="badge badge-success"
-                    id="minted">N/A</span>
+ <span class="" id="minted">N/A</span>
                 </li>
                 <li class="list-group-item"> <span class="prefix">Mail Address:</span>
- <span class="badge badge-success"
-                    id="mail">N/A</span>
+ <span class="" id="mail">N/A</span>
                 </li>
                 <li class="list-group-item"> <span class="prefix">Offer has been accepted by marmotverse:</span>
                     <span
-                    class="badge badge-success" id="offer_accepted">N/A</span>
+                    class="" id="offer_accepted">N/A</span>
                 </li>
                 <li class="list-group-item"> <span class="prefix">Royality Address:</span>
- <span class="badge badge-success"
-                    id="royality_address">N/A</span>
+ <span class="" id="royality_address">N/A</span>
                 </li>
             </ul>
         </div>
@@ -77,13 +79,21 @@ function getData(order_id) {
            document.getElementById('offer_accepted').innerText=data.item.accepted;
            document.getElementById('royality_address').innerText=data.item.royality_address;
            document.getElementById('state').innerText=data.item.state;
+           if (typeof data.item.reason !== 'undefined') {
+               document.getElementById('reject_reason').innerText=data.item.reason;
+           } else {
+               document.getElementById('reject_reason').innerText="N/A (Everything is good)";
+           }
+
 
         } else {
-           document.getElementById('minted').innerText="Invalid offer id, please try again";
-           document.getElementById('mail').innerText="Invalid offer id, please try again";
-           document.getElementById('offer_accepted').innerText="Invalid offer id, please try again";
-           document.getElementById('royality_address').innerText="Invalid offer id, please try again";
-           document.getElementById('state').innerText="Invalid offer id, please try again";
+           document.getElementById('minted').innerText="Invalid tracking id, please try again";
+           document.getElementById('mail').innerText="Invalid tracking id, please try again";
+           document.getElementById('offer_accepted').innerText="Invalid tracking id, please try again";
+           document.getElementById('royality_address').innerText="Invalid tracking id, please try again";
+           document.getElementById('state').innerText="Invalid tracking id, please try again";
+           document.getElementById('reject_reason').innerText="Invalid tracking id, please try again";
+
 
 
 
