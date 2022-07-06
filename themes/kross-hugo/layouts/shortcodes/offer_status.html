@@ -14,7 +14,7 @@
                 <div class="form-group">
                     <div class="offset-sm-2 col-md-10">
                         <button type="button" id="shopGetOrderStatusID" class="btn btn-success">Get status</button>
-                                                <button type="button" id="getMore" class="btn btn-success" onclick="location.href='https://d14fas1x0vwyyc.cloudfront.net/buy-marmots';">Buy another Space Marmot</button>
+                                                <button type="button" id="getMore" class="btn btn-success" onclick="location.href='https://marmotverse.io/sm1-exchange/';">Redeem another SM1</button>
 
                     </div>
                 </div>
@@ -24,20 +24,21 @@
                 <li class="list-group-item"> <span class="prefix">State:</span>
  <span class="" id="state">N/A</span>
                 </li>
-                <li class="list-group-item"> <span class="prefix">Your payment address:</span>
- <span class="" id="send_to_address">N/A</span>
-                </li>
-                <li class="list-group-item"> <span class="prefix">Please pay exactly:</span>
- <span class="" id="payment_amount">800 XCH</span>
+                <li class="list-group-item"> <span class="prefix">Reject Reason (If any):</span>
+ <span class="" id="reject_reason">N/A</span>
                 </li>
                 <li class="list-group-item"> <span class="prefix">Marmot minted:</span>
  <span class="" id="minted">N/A</span>
                 </li>
-                <li class="list-group-item"> <span class="prefix">Your receive address (We will send the NFT here):</span>
- <span class="" id="received_from_address">N/A</span>
+                <li class="list-group-item"> <span class="prefix">Mail Address:</span>
+ <span class="" id="mail">N/A</span>
                 </li>
-                <li class="list-group-item"> <span class="prefix">Payment received:</span>
-                    <span class="" id="received">N/A</span>
+                <li class="list-group-item"> <span class="prefix">Offer has been accepted by marmotverse:</span>
+                    <span
+                    class="" id="offer_accepted">N/A</span>
+                </li>
+                <li class="list-group-item"> <span class="prefix">Royality Address:</span>
+ <span class="" id="royality_address">N/A</span>
                 </li>
             </ul>
         </div>
@@ -64,24 +65,34 @@ function getData(order_id) {
     var request = new XMLHttpRequest()
 
     // Open a new connection, using the GET request on the URL endpoint
-    request.open('GET', 'https://d14fas1x0vwyyc.cloudfront.net/order/' + order_id, true)
+    request.open('GET', 'https://3r988ie6q2.execute-api.us-east-1.amazonaws.com/offer/' + order_id, true)
 
     request.onload = function () {
         var data = JSON.parse(this.response)
 
         if (request.status >= 200 && request.status < 400) {
            document.getElementById('minted').innerText=data.item.minted;
-           document.getElementById('received').innerText=data.item.received;
-           document.getElementById('received_from_address').innerText=data.item.received_from_address;
-           document.getElementById('send_to_address').innerText=data.item.send_to_address;
+           document.getElementById('mail').innerText=data.item.mailAddress;
+           document.getElementById('offer_accepted').innerText=data.item.accepted;
+           document.getElementById('royality_address').innerText=data.item.royality_address;
            document.getElementById('state').innerText=data.item.state;
+           if (typeof data.item.reason !== 'undefined') {
+               document.getElementById('reject_reason').innerText=data.item.reason;
+           } else {
+               document.getElementById('reject_reason').innerText="N/A (Everything is good)";
+           }
+
 
         } else {
-           document.getElementById('minted').innerText="Invalid tracking id, please try again"
-           document.getElementById('received').innerText="Invalid tracking id, please try again"
-           document.getElementById('received_from_address').innerText="Invalid tracking id, please try again"
-           document.getElementById('send_to_address').innerText="Invalid tracking id, please try again"
-           document.getElementById('state').innerText="Invalid tracking id, please try again"
+           document.getElementById('minted').innerText="Invalid tracking id, please try again";
+           document.getElementById('mail').innerText="Invalid tracking id, please try again";
+           document.getElementById('offer_accepted').innerText="Invalid tracking id, please try again";
+           document.getElementById('royality_address').innerText="Invalid tracking id, please try again";
+           document.getElementById('state').innerText="Invalid tracking id, please try again";
+           document.getElementById('reject_reason').innerText="Invalid tracking id, please try again";
+
+
+
 
       }
       }
