@@ -27,16 +27,19 @@
                 <li class="list-group-item"> <span class="prefix">Your payment address:</span>
  <span class="" id="send_to_address">N/A</span>
                 </li>
-                <li class="list-group-item"> <span class="prefix">Please pay exactly:</span>
- <span class="" id="payment_amount">800 XCH</span>
+                <li class="list-group-item"> <span class="prefix">Price per Space Marmot:</span>
+ <span class="" id="per_nft_price">N/A</span>
                 </li>
-                <li class="list-group-item"> <span class="prefix">Marmot minted:</span>
+                                <li class="list-group-item"> <span class="prefix">Marmot(s) paid for:</span>
+ <span class="" id="paid_for">N/A</span>
+                </li>
+                <li class="list-group-item"> <span class="prefix">Marmot(s) minted:</span>
  <span class="" id="minted">N/A</span>
                 </li>
                 <li class="list-group-item"> <span class="prefix">Your receive address (We will send the NFT here):</span>
  <span class="" id="received_from_address">N/A</span>
                 </li>
-                <li class="list-group-item"> <span class="prefix">Payment received:</span>
+                <li class="list-group-item"> <span class="prefix">Payment amount received:</span>
                     <span class="" id="received">N/A</span>
                 </li>
             </ul>
@@ -71,10 +74,16 @@ function getData(order_id) {
 
         if (request.status >= 200 && request.status < 400) {
            document.getElementById('minted').innerText=data.item.minted;
-           document.getElementById('received').innerText=data.item.received;
+           document.getElementById('received').innerText=data.item.total_paid/1000000000000 + " XCH";
            document.getElementById('received_from_address').innerText=data.item.received_from_address;
            document.getElementById('send_to_address').innerText=data.item.send_to_address;
            document.getElementById('state').innerText=data.item.state;
+           document.getElementById('per_nft_price').innerText=data.item.per_nft_price/1000000000000 + " XCH";
+           document.getElementById('paid_for').innerText=data.item.paid_for_minting;
+
+
+
+
 
         } else {
            document.getElementById('minted').innerText="Invalid tracking id, please try again"

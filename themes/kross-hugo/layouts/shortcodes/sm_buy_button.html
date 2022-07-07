@@ -1,5 +1,15 @@
-<div class="form-group">
-    <div class="">
-        <a href="https://d14fas1x0vwyyc.cloudfront.net/buy-marmots"><button type="button" id="buyButton" class="btn btn-success">Get your Space Marmot</button></a>
-    </div>
-</div>
+<form action="https://d14fas1x0vwyyc.cloudfront.net/buy-marmots" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="target_address">Target Address</label>
+    <input id="target_address" name="target_address" placeholder="xch123" type="text" aria-describedby="royality_addressHelpBlock" required="required" class="form-control">
+    <span id="target_addressHelpBlock" class="form-text text-muted">Your Space Marmot will go to this address. Make sure it is correct</span>
+  </div>
+  <div class="form-group">
+    <label for="mail_address">Mail Address</label>
+    <input id="mail_address" name="mail_address" placeholder="you@yourmail.com" type="text" aria-describedby="mail_addressHelpBlock" class="form-control">
+    <span id="mail_addressHelpBlock" class="form-text text-muted">We need this to contact you in case something goes horribly wrong (Optional)</span>
+  </div>
+  <div class="form-group">
+    <button name="submit" type="submit" class="btn btn-primary">Get your Space Marmot</button>
+  </div>
+</form>
