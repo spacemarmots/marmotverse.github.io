@@ -3,7 +3,7 @@ baseURL = "https://marmotverse.io"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Marmotverse"
+title = "Enter the Marmotverse: Chia on-chain NFT Project"
 
 # css plugins
 [[params.plugins.css]]
@@ -41,35 +41,66 @@ name = "Blog"
 weight = 2
 
 [[menu.main]]
-URL = "marmots"
-name = "Marmot Showcase"
+name = "Space Marmots"
 weight = 3
+hasChildren = true
+
+[[menu.main]]
+parent = "Space Marmots"
+name = "Showcase"
+url = "marmots"
+weight = 1
+
+[[menu.main]]
+parent = "Space Marmots"
+name = "Buy One"
+url = "sales/spacemarmots"
+weight = 2
+
+[[menu.main]]
+parent = "Space Marmots"
+name = "License"
+url = "https://api.mintgarden.io/nfts/nft10pdthkrgpx2gprf0fud87rzrwapga6yxre6tn924hutw88wq5cxqm59nqy/license"
+weight = 3
+
+[[menu.main]]
+parent = "Space Marmots"
+name = "SM1 Exchange"
+url = "sm1-exchange"
+weight = 4
+
+[[menu.main]]
+URL = "sales/spacemarmots"
+name = "Buy"
+weight = 4
 
 [[menu.main]]
 URL = "pages/whitepaper"
 name = "Whitepaper"
-weight = 4
+weight = 5
 
 [[menu.main]]
 URL = "pages/faq"
 name = "FAQ"
-weight = 5
+weight = 6
 
 [[menu.main]]
 URL = "https://discord.gg/cb9TTWKqPZ"
 name = "Discord"
-weight = 6
-
-[[menu.main]]
-URL = "contact"
-name = "Contact"
 weight = 7
+
+# [[menu.main]]
+# URL = "contact"
+# name = "Contact"
+# weight = 7
 
 
 # default parameters
 [params]
 home = "Home"
+# logo = "images/banner.png"
 logo = ""
+
 # theme color
 theme_color = "#41824f"
 # contact info

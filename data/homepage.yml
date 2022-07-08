@@ -1,11 +1,11 @@
 # banner
 banner:
-  title : "Marmotverse <br> The first on-chain NFT on the Chia blockchain"
+  title : "Space Marmots <br> The first on-chain Chia NFT collection"
 
 # about
 about:
   enable : true
-  content : "The Marmotverse On-Chain Non-Fungible Token (NFT) project will be the premiere Art project and exclusive NFT-ownership club on the Chia blockchain. Instead of storing NFT files on unsecured and centralized Web 2.0 storage, or leveraging a competing blockchains, we will be storing our assets directly on the Chia blockchain for maximum longevity and reliability."
+  content : The Space Marmots On-Chain Non-Fungible Token (NFT) project launched at July 8th 2022 and is a premiere Art project on the Chia blockchain. Instead of storing NFT files on unsecured and centralized Web 2.0 storage, or leveraging a competing blockchain, our assets are stored directly on the Chia blockchain for maximum longevity and reliability.
   button:
     enable : true
     label : "learn more"
@@ -97,23 +97,42 @@ education:
       year: "March 2022"
       academy: "We're expecting to start working on the NFT Standard."
 
-    - title: "Nearing completion"
-      year: "April 2022"
-      academy: "By April, we plan to deliver our first alpha stage NFT to you."
+    - title: "Most of the artwork is finished."
+      year: "May 2022"
+      academy: "The NFT0 standard has been released for testing. We are also working on the implementation of the upcoming NFT1 standard"
 
-    - title: "Release of Chia's NFT Standard"
-      year: "End of April 2022"
-      academy: "This is a guess, but we hope the NFT Standard will be ready by end of April."
+    - title: "Marmots are alive and well on chia testnet"
+      year: "June 2022"
+      academy: "Testing with the NFT0 standard is complete and we are waiting for completion of the NFT1 standard"
+
+    - title: "The NFT1 standard is finished"
+      year: "29.06.2022"
+      academy: "In the coming days SM1 holders will start receiving their Space Marmots"
+
+    - title: "All 2000 Space Marmots are finished"
+      year: "08.07.2022"
+      academy: "Look them up in the galleries or buy one today"
+
 
 # service
 service:
   enable : true
-  title : "Our NFT Collections"
+  title : "Galleries & Marketplaces"
   item:
-    - title : "Space Marmots"
-      icon : "ti-rocket"
-      content : "Space Marmots will be a fully decentralized, high-quality Marmot based NFT that will exist as long as the Chia Blockchain does. They will be sold at low prices during the pre-sale period with final pricing set once the rest of the Chia NFT Gallery infrastructure has been released."
+    - title : ""
+      icon : ""
+      content : "[![SkyNFT](images/galleries/skynft.png)](https://skynft.org/collection.php?COLLECTIONID=c243b6ef-de18-455d-9259-5d20e05ed9a6)"
       highlighted : true
+    - title: ""
+      icon: ""
+      content: "[![MintGarden](images/galleries/mintgarden.png)](https://mintgarden.io/collections/space-marmots-col14t0ytc3uv2up622y0a9p89v065s9cnf49x4t9450s7wwl6wvpqrsz20m47)"
+      highlighted: true
+    - title: ""
+      icon: ""
+      content: "[![spacescan](images/galleries/spacescan.png)](https://www.spacescan.io/xch/nft/collection/col14t0ytc3uv2up622y0a9p89v065s9cnf49x4t9450s7wwl6wvpqrsz20m47)"
+      highlighted: true
+
+
 
 #    - title : "TBA"
 #      icon : "ti-vector"
@@ -138,7 +157,7 @@ service:
 marmots:
   enable : true
   title : "Marmot Showcase"
-  item_show : 5
+  item_show : 6
   # marmots item comes from 'data/marmots.yml' item.
 
 # testimonial

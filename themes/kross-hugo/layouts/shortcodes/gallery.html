@@ -1,0 +1,72 @@
+<!--
+{"message": "ok", "item": [{"nft_id": "nft1qvsmv5uspcrmzsfzkm0r5pss5yemg9nsmk8quz3lzztumsqs2q5s22f3mr", "image_url": "https://speedmann.github.io/images/nft_999.png", "offer_url": "https://assets.marmotverse.io/spacemarmots/offers/nft1qvsmv5uspcrmzsfzkm0r5pss5yemg9nsmk8quz3lzztumsqs2q5s22f3mr.offer"}]}
+-->
+
+<div class="container-fluid">
+  <div class="px-lg-5">
+
+
+    <div class="row" id="gallery">
+     </div>
+  </div>
+</div>
+
+
+
+<script>
+
+const data = {"message": "ok", "item": [{"nft_id": "nft1qvsmv5uspcrmzsfzkm0r5pss5yemg9nsmk8quz3lzztumsqs2q5s22f3mr", "image_url": "https://speedmann.github.io/images/nft_999.png", "offer_url": "https://assets.marmotverse.io/spacemarmots/offers/nft1qvsmv5uspcrmzsfzkm0r5pss5yemg9nsmk8quz3lzztumsqs2q5s22f3mr.offer"}]};
+const gallery = document.querySelector('#gallery');
+getData()
+
+function renderImage(item) {
+console.log(item.Item.NFTId)
+const imageEL = document.createElement('div');
+imageEL.classList.add('col-xl-3', 'col-lg-4', 'col-md-6', 'mb-4');
+
+imageEL.innerHTML = `
+        <div class="bg-white rounded shadow-sm"><img src="${item.Item['image_url']}" alt="${item.Item['NFTId']}" class="img-fluid card-img-top">
+          <div class="p-4">
+            <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+              <p class="small mb-0"><i class="ti-download mr-2"></i><a href="${item.Item['offer_url']}" class="font-weight-bold">Get Offer</a></p>
+            </div>
+          </div>
+        </div>
+        `;
+gallery.appendChild(imageEL);
+
+console.log(item)
+
+}
+
+function getData() {
+    var request = new XMLHttpRequest()
+
+    // Open a new connection, using the GET request on the URL endpoint
+    request.open('GET', 'https://3r988ie6q2.execute-api.us-east-1.amazonaws.com/marmots', true)
+
+    request.onload = function () {
+        var data = JSON.parse(this.response)
+
+        if (request.status >= 200 && request.status < 400) {
+           data['item'].forEach(renderImage);
+
+        } else {
+           document.getElementById('minted').innerText="Invalid offer id, please try again";
+           document.getElementById('mail').innerText="Invalid offer id, please try again";
+           document.getElementById('offer_accepted').innerText="Invalid offer id, please try again";
+           document.getElementById('royality_address').innerText="Invalid offer id, please try again";
+           document.getElementById('state').innerText="Invalid offer id, please try again";
+
+
+
+      }
+      }
+
+    // Send request
+    request.send()
+}
+
+
+
+</script>

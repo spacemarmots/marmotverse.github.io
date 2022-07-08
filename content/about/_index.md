@@ -19,8 +19,6 @@ Long live the Marmota!
 
 
 ### What do we do
-The Marmotverse On-Chain Non-Fungible Token (NFT) project will be the premiere Art project and exclusive NFT-ownership club on the Chia blockchain. Instead of storing NFT files on unsecured and centralized Web 2.0 storage, or leveraging a competing blockchain, we will be storing our assets directly on the Chia blockchain for maximum longevity and reliability.
-
 The first Marmotverse NFT series will be Space Marmots. The Space Marmots NFT minting event will encompass 2100 provably unique Marmots. In keeping with our desire to be a positive contribution to the Chia community, we are delaying our minting event to allow us to review the NFT Standard prior to release.
 ### One more thing
 
