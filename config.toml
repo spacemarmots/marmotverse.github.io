@@ -98,8 +98,8 @@ weight = 7
 # default parameters
 [params]
 home = "Home"
-# logo = "images/banner.png"
-logo = ""
+logo = "images/banner.png"
+# logo = ""
 
 # theme color
 theme_color = "#41824f"
