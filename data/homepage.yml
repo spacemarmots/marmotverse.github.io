@@ -119,10 +119,11 @@ service:
   enable : true
   title : "Galleries & Marketplaces"
   item:
-    - title : ""
-      icon : ""
-      content : "[![SkyNFT](images/galleries/skynft.png)](https://skynft.org/collection.php?COLLECTIONID=c243b6ef-de18-455d-9259-5d20e05ed9a6)"
-      highlighted : true
+    - title: ""
+      icon: ""
+      content: "[![dexie](images/galleries/dexie.png)](https://dexie.space/offers/col14t0ytc3uv2up622y0a9p89v065s9cnf49x4t9450s7wwl6wvpqrsz20m47/xch)"
+      highlighted: true
+
     - title: ""
       icon: ""
       content: "[![MintGarden](images/galleries/mintgarden.png)](https://mintgarden.io/collections/space-marmots-col14t0ytc3uv2up622y0a9p89v065s9cnf49x4t9450s7wwl6wvpqrsz20m47)"
@@ -131,6 +132,18 @@ service:
       icon: ""
       content: "[![spacescan](images/galleries/spacescan.png)](https://www.spacescan.io/xch/nft/collection/col14t0ytc3uv2up622y0a9p89v065s9cnf49x4t9450s7wwl6wvpqrsz20m47)"
       highlighted: true
+    - title : ""
+      icon : ""
+      content : "[![SkyNFT](images/galleries/skynft.png)](https://skynft.org/collection.php?COLLECTIONID=c243b6ef-de18-455d-9259-5d20e05ed9a6)"
+      highlighted : true
+    - title: ""
+      icon: ""
+      content: "[![farmers Market](images/galleries/farmers-market.png)](https://farmersmarket.cc/collections/spacemarmots/)"
+      highlighted: true
+    - title: ""
+      icon: ""
+      content: "[![farmers Market](images/galleries/marmotverse.gif)](/sales/spacemarmots/)"
+      highlighted: false
 
 
 
