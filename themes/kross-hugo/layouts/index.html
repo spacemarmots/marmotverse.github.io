@@ -67,6 +67,34 @@
   <!-- /about -->
   {{ end }}
 
+ {{ if site.Data.homepage.marmots.enable }}
+  <!-- marmots -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{ site.Data.homepage.marmots.title | markdownify }}</h2>
+        </div>
+      </div>
+      <div class="row shuffle-wrapper">
+        {{ $item:= site.Data.homepage.marmots.item_show }}
+        {{ range first $item (where .Site.RegularPages "Section" "marmots") }}
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="{{ .Permalink | safeURL }}">view marmot</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /marmots -->
+  {{ end }}
 
   {{ if site.Data.homepage.skill.enable }}
   {{ with site.Data.homepage.skill }}
@@ -120,36 +148,6 @@
   {{ end }}
   {{ end }}
 
-  {{ if site.Data.homepage.education.enable }}
-  {{ with site.Data.homepage.education }}
-  <!-- education -->
-  <section class="section position-relative">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
-        </div>
-        {{ range .item }}
-        <div class="col-lg-6 col-md-6 mb-80">
-          <div class="d-flex">
-            <div class="mr-lg-5 mr-3">
-            </div>
-            <div>
-              <p class="text-dark mb-1">{{.year}}</p>
-              <h4>{{ .title }}</h4>
-              <p class="mb-0 text-light">{{.academy}}</p>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-    <!-- bg image -->
-    <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
-  </section>
-  <!-- /education -->
-  {{ end }}
-  {{ end }}
 
 
   {{ if site.Data.homepage.service.enable }}
@@ -180,34 +178,7 @@
   {{ end }}
 
 
-  {{ if site.Data.homepage.marmots.enable }}
-  <!-- marmots -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">{{ site.Data.homepage.marmots.title | markdownify }}</h2>
-        </div>
-      </div>
-      <div class="row shuffle-wrapper">
-        {{ $item:= site.Data.homepage.marmots.item_show }}
-        {{ range first $item (where .Site.RegularPages "Section" "marmots") }}
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="{{ .Permalink | safeURL }}">view marmot</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-  <!-- /marmots -->
-  {{ end }}
+
 
 
   {{ if site.Data.homepage.testimonial.enable }}
@@ -255,6 +226,38 @@
   </section>
   <!-- /client logo slider -->
   {{ end }}
+
+  {{ if site.Data.homepage.education.enable }}
+  {{ with site.Data.homepage.education }}
+  <!-- education -->
+  <section class="section position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+        </div>
+        {{ range .item }}
+        <div class="col-lg-6 col-md-6 mb-80">
+          <div class="d-flex">
+            <div class="mr-lg-5 mr-3">
+            </div>
+            <div>
+              <p class="text-dark mb-1">{{.year}}</p>
+              <h4>{{ .title }}</h4>
+              <p class="mb-0 text-light">{{.academy}}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <!-- bg image -->
+    <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
+  </section>
+  <!-- /education -->
+  {{ end }}
+  {{ end }}
+
 
   {{ if site.Data.homepage.blog.enable }}
   <!-- blog -->
