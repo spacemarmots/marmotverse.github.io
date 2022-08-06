@@ -17,7 +17,7 @@ You can keep track of the upcoming launch dates of the various Chia NFT gallerie
 
 The breakdown of Space Marmots available for mint is:
 
--2000 Regular Edition Marmots. Divided into Common (1600), Uncommon (350) and Rare (50)  
+-2000 Regular Edition Marmots. Divided into Common (1600), Uncommon (300) and Rare (100)  
 -30 Limited Edition Marmots. with completely unique attributes.  
 -70 Special Release Marmots. To be announced after the presale rounds are complete.  
 
