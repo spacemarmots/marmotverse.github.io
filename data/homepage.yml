@@ -140,10 +140,6 @@ service:
       icon: ""
       content: "[![farmers Market](images/galleries/farmers-market.png)](https://farmersmarket.cc/collections/spacemarmots/)"
       highlighted: true
-    - title: ""
-      icon: ""
-      content: "[![farmers Market](images/galleries/marmotverse.gif)](/sales/spacemarmots/)"
-      highlighted: false
 
 
 

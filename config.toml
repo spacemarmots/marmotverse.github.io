@@ -54,13 +54,13 @@ weight = 1
 [[menu.main]]
 parent = "Space Marmots"
 name = "Buy One"
-url = "sales/spacemarmots"
+url = "https://dexie.space/offers/col14t0ytc3uv2up622y0a9p89v065s9cnf49x4t9450s7wwl6wvpqrsz20m47/xch"
 weight = 2
 
 [[menu.main]]
 parent = "Space Marmots"
 name = "License"
-url = "https://api.mintgarden.io/nfts/nft10pdthkrgpx2gprf0fud87rzrwapga6yxre6tn924hutw88wq5cxqm59nqy/license"
+url = "https://assets.marmotverse.io/spacemarmots/marmotverse_license.pdf"
 weight = 3
 
 [[menu.main]]
@@ -70,7 +70,7 @@ url = "sm1-exchange"
 weight = 4
 
 [[menu.main]]
-URL = "sales/spacemarmots"
+URL = "https://dexie.space/offers/col14t0ytc3uv2up622y0a9p89v065s9cnf49x4t9450s7wwl6wvpqrsz20m47/xch"
 name = "Buy"
 weight = 4
 
